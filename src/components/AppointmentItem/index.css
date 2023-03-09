@@ -1,0 +1,33 @@
+/* Write your CSS here */
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 1px #b5b7c4;
+  width: 400px;
+  padding: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.star-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-grow: wrap;
+}
+.type-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.date {
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: #b5b7c4;
+}
+.button1 {
+  background-color: transparent;
+  border-width: 0;
+  cursor: pointer;
+  outline: none;
+}

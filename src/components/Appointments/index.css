@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  min-height: 90vh;
+  width: 90%;
+  align-self: center;
+}
+@media screen and (min-width: 768px) {
+  .appointment-container {
+    justify-content: space-around;
+    padding: 100px;
+    max-width: 1100px;
+  }
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.appointment-image {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .appointment-image {
+    display: flex;
+    height: 300px;
+    align-self: center;
+  }
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.label-container {
+  display: flex;
+  flex-direction: column;
+  color: #b5b7c4;
+  margin-bottom: 10px;
+}
+.input-box {
+  margin-top: 10px;
+  padding: 10px;
+  font-family: 'Roboto';
+  outline: none;
+  border: solid 1px #b5b7c4;
+  border-radius: 6px;
+  width: 350px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  border: none;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-top: 16px;
+  min-width: 60px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+}
+
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.appointments {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* height: 200px; */
+}
+.button {
+  border-radius: 15px;
+  border: 2px solid #8b5cf6;
+  padding: 5px;
+  width: 100px;
+  color: #8b5cf6;
+  background-color: transparent;
+  opacity: 0.7;
+  cursor: pointer;
+  outline: none;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
